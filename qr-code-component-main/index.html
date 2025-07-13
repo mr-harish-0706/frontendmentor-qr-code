@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    /* 1.  Make the entire viewport a flex‑box  */
+    body {
+      display: flex;
+      justify-content: center;   /* horizontal centering   */
+      align-items: center;       /* vertical   centering   */
+      min-height: 100vh;         /* take full screen height */
+      margin: 0;                 /* remove default margins */
+      background-color: hsl(212, 45%, 89%);
+      font-family: system-ui, sans-serif;
+    }
+
+    /* 2.  Style the card itself  */
+    .attribution {
+      background-color: hsl(0, 0%, 100%);
+      width: 200px;
+      border-radius: 10px;
+      padding: 16px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .attribution img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    #title {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 18px 0 12px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    #note {
+      font-size: 14px;
+      color: hsl(216, 15%, 48%);
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="attribution">
+    <img src="images/image-qr-code.png" alt="QR code to Frontend Mentor">
+    <p id="title">Improve your front‑end skills by building projects</p>
+    <p id="note">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
+</body>
+</html>
